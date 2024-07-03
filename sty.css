@@ -1,0 +1,99 @@
+.
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+   
+    background: url('img12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3
+{
+    font-family: Calibri;
+    font-size: 25pt;
+    font-style: normal;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+}
+table
+{
+    font-family: Calibri;
+    color: #131212;
+    font-size: 11pt;
+    font-style: normal;
+    font-weight: bold;
+    background: url('img13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 102, 0);
+    border-collapse: collapse;
+    border: 2px blueviolet;
+}
+table.inner
+{
+    border: 0px;
+}
+
+.toolbar {
+    background-color: #333;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    vertical-align: text-top;
+  }
+ 
+  .toolbar ul {
+    list-style-type: none;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .toolbar ul li {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .toolbar ul li:last-child {
+    margin-right: 0;
+  }
+  .toolbar a {
+    color: white;
+    float: left;
+    text-align: left;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .toolbar a:hover {
+    text-decoration: underline;
+    background: #aca4a4;
+    }
+  form
+  {
+    border: #131212;
+  }
+  form label
+  {
+    display: flex;
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  form input
+  {
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+  }

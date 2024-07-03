@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.nav1 {
+    height: 50px;
+    width: 100%;
+    color: rgb(14, 13, 13);
+    background: #bb751a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin: 0 7px;
+}
+.nav1 a{
+    color: rgb(5, 5, 5);
+    padding: 6px 10px;
+    text-decoration: none;
+    background: #78cdee;
+}
+
+.nav2 {
+    height: 80px;
+    width: 100%;
+    background: rgb(241, 241, 238);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+.img11 {
+    mix-blend-mode:darken;
+    padding-top: 25px;
+    padding-left: 20px;
+    height: 120px;
+}
+.menu a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+header {
+    height: 125%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7) 50%,#bb751a), url('img2.webp');
+    background-size: 100% 100%;
+}
+.textt {
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.textt h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    word-spacing: 150px;
+}
+.textt span {
+    color: #bb751a;
+    font-family: 'Dancing Script', cursive;
+}
+.textt p {
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+.textt a {
+    text-decoration: none;
+    color: white;
+    background: #bb751a;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 2px;
+}
+.cor {
+    height: auto;
+    width: auto;
+}
+.cor p {
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: aliceblue;
+}
+.cor strong {
+    text-align: left;
+    width: 100%;
+    display: block;
+    margin-left: 80px;
+    margin-top: auto;
+    color: aliceblue;
+}

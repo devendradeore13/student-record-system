@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #5f6160;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #f0ecec;
+    padding: 25px 150px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #16cf8b;
+    color: rgb(8, 8, 8);
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: rgb(240, 232, 232);
+  }
+ img {
+    width: 150px;
+    height: 150px;
+    padding: 25px 100px;
+ }
+div {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+    background-color: #5f6160;
+    width: 75%;
+    height: 50px;
+}
+
+.btn
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 60px;
+    right: 1100px;
+    background-color: #f5faf8;
+    color: rgb(8, 8, 8); 
+    border-top-style: solid;
+    border-color: #16cf8b;
+    text-decoration: none;
+}
+.btn:hover
+{
+    background:  #16cf8b;
+}
+
+
+.btn1
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 60px;
+    right: 920px;
+    text-decoration: none;
+}
+.btn1:hover
+{
+    background:  #16cf8b;
+}
+
+.btn2
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 60px;
+    right: 740px;
+    text-decoration: none;
+}
+.btn2:hover
+{
+    background:  #16cf8b;
+}
+
+.btn3
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 60px;
+    right: 560px;
+    text-decoration: none;
+}
+.btn3:hover
+{
+    background:  #16cf8b;
+}
+div .div1 {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 10px;
+}
+table
+{
+    font-family: Calibri;
+    color: #0a0a0a;
+    font-size: 20pt;
+    font-style: normal;
+    background-color: rgb(241, 237, 234);
+    border-collapse: collapse;
+    border: 2px;
+    width: 70%;
+    text-align: center;
+    margin: 20px 150px;
+}
+table.inner
+{
+    border:1px;
+}
+tr {
+  height: 60px;
+}
